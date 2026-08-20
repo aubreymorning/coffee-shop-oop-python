@@ -7,7 +7,7 @@ prints/writes each customer's balance, and reports total daily revenue.
 
 from Mon_Coffee_Shop import *
 
-# ---- Part 1: build the list of Food objects from inventory.txt ----
+# Part 1: build the list of Food objects from inventory.txt
 f1 = open("inventory.txt")
 inventoryStr = f1.read()
 foodList = inventoryStr.strip().split("\n")
@@ -23,7 +23,7 @@ for element in foodList:
     foodListObjects.append(food1)
 f1.close()
 
-# ---- Part 2: take orders until the customer types "quit" ----
+# Part 2: take orders until the customer types "quit"
 f2 = open("daily_transactions.txt", "a")
 revenue = 0
 print("Welcome to <Your Name>'s Coffee Shop")
