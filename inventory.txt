@@ -1,0 +1,6 @@
+capuccino, 5.10
+latte, 5.10
+orange juice, 4.50
+cupcake, 4.25
+bagel, 2.35
+baguette, 1.95
